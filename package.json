@@ -1,0 +1,33 @@
+{
+  "name": "mytoolbox-estimator",
+  "displayName": "WSDOT Estimator Assistant",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "activationEvents": [
+    "onCommand:mytoolbox.buildEstimate"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "mytoolbox.buildEstimate",
+        "title": "MyToolbox: Synchronize Market Truth",
+        "category": "MyToolbox"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "node esbuild.js",
+    "watch": "node esbuild.js --watch",
+    "test": "node ./node_modules/vscode-test/out/main.js"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/vscode": "^1.75.0",
+    "esbuild": "^0.17.0",
+    "typescript": "^5.0.0"
+  }
+}

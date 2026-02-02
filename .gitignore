@@ -1,0 +1,45 @@
+# Node & build artifacts
+node_modules/
+/out/
+/dist/
+/*.tgz
+/*.vsix
+
+# VS Code test & extension artifacts
+.vscode-test/
+.vscode-test-*/
+
+# Local editor/OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Coverage
+coverage/
+.nyc_output/
+
+# TypeScript cache / compiler
+*.tsbuildinfo
+
+# Linters & caches
+.eslintcache
+.cache/
+
+# Misc
+*.local
+*.p12
+
+# Keep sample data and SupportDocuments checked in unless you explicitly want them ignored
+# To ignore support data and target workbooks, uncomment the following lines:
+SupportDocuments/
+*.xlsm
