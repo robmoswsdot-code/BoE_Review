@@ -1,3 +1,9 @@
+# Agent runtime / cache (ignore local ephemeral data)
+.copilot/
+.claude/
+.cursor/
+.github/agents/
+
 # Node & build artifacts
 node_modules/
 /out/

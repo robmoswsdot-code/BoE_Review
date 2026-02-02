@@ -1,0 +1,16 @@
+# BOOTSTRAP RUN (mandatory):
+
+1) Open and read ./bootstrap.md completely and follow it.
+2) If ./memory.md is missing or empty, create it using the template in bootstrap.md and populate it by inspecting the repo.
+3) Output:
+   - a short summary of what you wrote into memory.md
+   - the repo’s run/test/lint commands you found
+4) Do not implement any features yet. This run is only to initialize memory.
+
+## Definition of done: 
+
+update ./memory.md (Current State, Open Tasks, Changelog) with what you changed and how to verify.
+
+## If the agent starts coding without mentioning bootstrap.md/memory.md, respond
+Stop. You violated the workflow. Re-run the BOOTSTRAP RUN exactly and do not touch code until memory.md is created/updated.
+
